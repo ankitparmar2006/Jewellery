@@ -69,6 +69,54 @@ display: grid;
 justify-content: space-around;
 color: white;
 }
+/* ---------------------the box comes down side a --------------------------- */
+#bottom-header ul li .bottom-a-box {
+  display: none;
+  width: 450px;
+  height: 250px;
+  background-color: rgba(116, 114, 7, 0.788);
+  position: absolute;
+ margin-top: 2px;
+  border-radius: 10px;
+  padding: 20px;
+  z-index: 10;
+}
+
+#bottom-header ul li:hover .bottom-a-box {
+  display: block;
+  grid-template-columns: auto auto auto;
+}
+
+#bottom-header ul li .bottom-a-box a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin: 10px ;
+}
+.bottom-aa-box {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 30px;
+}
+
+.bottom-aa-box p {
+font-size: 22px;
+color:  gold ;
+padding-bottom: 15px;
+}
+/* --------------------the line come down side of a ---------------------- */
+#bottom-header ul li:hover {
+  position: relative;
+}
+#bottom-header ul li:hover::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+  width: 90%;
+  height: 4px;
+  background-color:  rgba(109, 107, 4, 0.788);
+}
 
 /* <!-- =========================    HOME PAGE START FROM HERE    ========================= --> */
 
@@ -158,30 +206,122 @@ padding-top: 7px;
 font-size: 12px;
 background-color: rgba(218, 215, 29, 0.788);
   }
+  
 #gold .gold-earrings-main .gold-earring-div1 .gold-earrings-box1{
 width: 350px;
 height: 350px;
-border: 1px solid  rgba(218, 215, 29, 0.788);
 border-top-left-radius: 25px;
 border-bottom-right-radius: 25px;
 background-image: url('earrings/earring1.1.webp');
-background-size: cover;
+background-size: contain;
 }
 
 
   #gold .gold-earrings-main .gold-earring-div1 .gold-earrings-box1:hover{
- background-image: url('earrings/earring1.2.webp')
- }
+ background-image: url('earrings/earring1.2.webp');
+ width: 360px;
+ height: 360px;
+ border: 1px solid  rgba(218, 215, 29, 0.788);
+transition: 250ms;
+}
   
 
-  #gold .gold-earrings-main .gold-earring-div1 .gold-earrings-box2{
+ #gold .gold-earrings-main .gold-earring-div1 .gold-earrings-box2{
+  width: 350px;
+  height: 350px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-image: url('earrings/ear2.2.webp');
+  background-size: contain;
+  }
+  
+  
+    #gold .gold-earrings-main .gold-earring-div1 .gold-earrings-box2:hover{
+   background-image: url('earrings/ear4.webp');
+   width: 360px;
+   height: 360px;
+   border: 1px solid  rgba(218, 215, 29, 0.788);
+   transition: 250ms;
+
+   }
+
+   #gold .gold-earrings-main .gold-earring-div1 .gold-earrings-box3{
     width: 350px;
     height: 350px;
-    border: 1px solid  rgba(218, 215, 29, 0.788);
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    background-image: url('earrings/ear2.2.webp')
+    background-image: url('earrings/ear2.webp');
+    background-size: contain;
     }
+    
+    
+      #gold .gold-earrings-main .gold-earring-div1 .gold-earrings-box3:hover{
+     background-image: url('earrings/ear3.webp');
+     width: 360px;
+     height: 360px;
+     border: 1px solid  rgba(218, 215, 29, 0.788);
+     transition: 250ms;
+
+     }
+
+     /* ------------work start from here----- */
+     #gold .gold-earrings-main .gold-earring-div1 .gold-earrings-box4{
+      width: 350px;
+      height: 350px;
+      border-top-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      background-image: url('earrings/ear6.webp');
+      background-size: contain;
+      }
+      
+      
+        #gold .gold-earrings-main .gold-earring-div1 .gold-earrings-box4:hover{
+       background-image: url('earrings/ear6.2.webp');
+       width: 360px;
+       height: 360px;
+       border: 1px solid  rgba(218, 215, 29, 0.788);
+       transition: 250ms;
+
+
+       }
+
+       #gold .gold-earrings-main .gold-earring-div1 .gold-earrings-box5{
+        width: 350px;
+        height: 350px;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        background-image: url('earrings/ear7.1.webp');
+        background-size: contain;
+        }
+        
+        
+          #gold .gold-earrings-main .gold-earring-div1 .gold-earrings-box5:hover{
+         background-image: url('earrings/ear7.2.webp');
+         width: 360px;
+         height: 360px;
+         border: 1px solid  rgba(218, 215, 29, 0.788);
+         transition: 250ms;
+
+         }
+
+         #gold .gold-earrings-main .gold-earring-div1 .gold-earrings-box6{
+          width: 350px;
+          height: 350px;
+          border-top-left-radius: 25px;
+          border-bottom-right-radius: 25px;
+          background-image: url('earrings/ear8.1.webp');
+          background-size: contain;
+          }
+          
+          
+            #gold .gold-earrings-main .gold-earring-div1 .gold-earrings-box6:hover{
+           background-image: url('earrings/ear8.2.webp');
+           width: 360px;
+           height: 360px;
+           border: 1px solid  rgba(218, 215, 29, 0.788);
+           transition: 250ms;
+
+           }
 
 /* ------------------------------img ---------------------------- */
 
