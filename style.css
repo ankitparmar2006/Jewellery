@@ -220,8 +220,8 @@ background-size: contain;
 
   #gold .gold-earrings-main .gold-earring-div1 .gold-earrings-box1:hover{
  background-image: url('earrings/earring1.2.webp');
- width: 360px;
- height: 360px;
+ width: 380px;
+ height: 400px;
  border: 1px solid  rgba(218, 215, 29, 0.788);
 transition: 250ms;
 }
@@ -239,8 +239,8 @@ transition: 250ms;
   
     #gold .gold-earrings-main .gold-earring-div1 .gold-earrings-box2:hover{
    background-image: url('earrings/ear4.webp');
-   width: 360px;
-   height: 360px;
+   width: 380px;
+   height: 400px;
    border: 1px solid  rgba(218, 215, 29, 0.788);
    transition: 250ms;
 
@@ -258,14 +258,13 @@ transition: 250ms;
     
       #gold .gold-earrings-main .gold-earring-div1 .gold-earrings-box3:hover{
      background-image: url('earrings/ear3.webp');
-     width: 360px;
-     height: 360px;
-     border: 1px solid  rgba(218, 215, 29, 0.788);
+     width: 368px;
+     height: 400px;
+    border: 1px solid  rgba(218, 215, 29, 0.788);
      transition: 250ms;
 
      }
 
-     /* ------------work start from here----- */
      #gold .gold-earrings-main .gold-earring-div1 .gold-earrings-box4{
       width: 350px;
       height: 350px;
@@ -278,8 +277,8 @@ transition: 250ms;
       
         #gold .gold-earrings-main .gold-earring-div1 .gold-earrings-box4:hover{
        background-image: url('earrings/ear6.2.webp');
-       width: 360px;
-       height: 360px;
+       width: 380px;
+       height: 400px;
        border: 1px solid  rgba(218, 215, 29, 0.788);
        transition: 250ms;
 
@@ -298,8 +297,8 @@ transition: 250ms;
         
           #gold .gold-earrings-main .gold-earring-div1 .gold-earrings-box5:hover{
          background-image: url('earrings/ear7.2.webp');
-         width: 360px;
-         height: 360px;
+         width: 380px;
+         height: 400px;
          border: 1px solid  rgba(218, 215, 29, 0.788);
          transition: 250ms;
 
@@ -317,8 +316,8 @@ transition: 250ms;
           
             #gold .gold-earrings-main .gold-earring-div1 .gold-earrings-box6:hover{
            background-image: url('earrings/ear8.2.webp');
-           width: 360px;
-           height: 360px;
+           width: 380px;
+           height: 400px;
            border: 1px solid  rgba(218, 215, 29, 0.788);
            transition: 250ms;
 
@@ -326,6 +325,1516 @@ transition: 250ms;
 
 /* ------------------------------img ---------------------------- */
 
+/* ------------------------------ earring buttons work start from here---------------------------- */
+.earring-buy-btn {
+  width: 100px;
+  height: 30px;
+margin-left: 20px;
+border-radius: 10px;
+background-color: rgba(218, 215, 29, 0.788);
+}
+.earring-buy-btn:hover {
+background-color: rgba(90, 224, 28, 0.788);
+}
 
+.earring-add-to-cart {
+  width: 100px;
+  height: 30px;
+margin-left: -80px;
+border-radius: 10px;
+background-color: rgba(218, 215, 29, 0.788);
+}
+.earring-add-to-cart:hover {
+  background-color: rgba(90, 224, 28, 0.788);
+  }
+
+.earring-Similar {
+  width: 100px;
+  height: 30px;
+margin-left: 80px;
+border-radius: 10px;
+background-color: rgba(218, 215, 29, 0.788);
+}
+.earring-Similar:hover {
+  background-color: rgba(90, 224, 28, 0.788);
+  }
 
 /* <!-- =========================     GOLD WORK START END FROM HERE    ========================= --> */
+
+
+
+
+
+
+/* <!-- =========================    DIAMOND WORK START FROM HERE    ========================= --> */
+
+#diamond {
+  width: 100%;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+#diamond .diamond-earrings-main .diamond-earring-div1 {
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 10px;
+justify-content: center;
+}
+/* ------------------   this is best seller ------------------------- */
+#diamond .diamond-earrings-main .diamond-earring-div1 p{
+width: 135px;
+height: 35px;
+border: 1px solid rgba(116, 114, 7, 0.788) ;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+margin-top: 8px;
+margin-left: 10px;
+padding-left: 20px;
+padding-top: 7px;
+font-size: 12px;
+background-color: rgba(218, 215, 29, 0.788);
+}
+
+#diamond .diamond-earrings-main .diamond-earring-div1 .diamond-earrings-box1{
+width: 350px;
+height: 400px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-image: url('diamondear/dai1.1.webp');
+background-size: cover;
+}
+
+
+
+#diamond .diamond-earrings-main .diamond-earring-div1 .diamond-earrings-box1:hover{
+background-image: url('diamondear/dia1.2.webp');
+width: 380px;
+height: 400px;
+border: 1px solid  rgba(218, 215, 29, 0.788);
+transition: 250ms;
+}
+
+
+#diamond .diamond-earrings-main .diamond-earring-div1 .diamond-earrings-box2{
+width: 350px;
+height: 400px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-image: url('diamondear/dia2.1.webp');
+background-size: contain;
+}
+
+
+  #diamond .diamond-earrings-main .diamond-earring-div1 .diamond-earrings-box2:hover{
+ background-image: url('diamondear/dia2.2.webp');
+ width: 380px;
+ height: 400px;
+ border: 1px solid  rgba(218, 215, 29, 0.788);
+ transition: 250ms;
+
+ }
+
+ #diamond .diamond-earrings-main .diamond-earring-div1 .diamond-earrings-box3{
+  width: 350px;
+  height: 400px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-image: url('diamondear/dia3.1.webp');
+  background-size: contain;
+  }
+  
+  
+    #diamond .diamond-earrings-main .diamond-earring-div1 .diamond-earrings-box3:hover{
+   background-image: url('diamondear/dia3.2.webp');
+   width: 368px;
+   height: 400px;
+  border: 1px solid  rgba(218, 215, 29, 0.788);
+   transition: 250ms;
+
+   }
+
+   #diamond .diamond-earrings-main .diamond-earring-div1 .diamond-earrings-box4{
+    width: 350px;
+    height: 400px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-image: url('diamondear/dia4.1.webp');
+    background-size: contain;
+    }
+    
+    
+    #diamond .diamond-earrings-main .diamond-earring-div1 .diamond-earrings-box4:hover{
+     background-image: url('diamondear/dia4.2.webp');
+     width: 380px;
+     height: 400px;
+     border: 1px solid  rgba(218, 215, 29, 0.788);
+     transition: 250ms;
+
+
+     }
+
+     #diamond .diamond-earrings-main .diamond-earring-div1 .diamond-earrings-box5{
+      width: 350px;
+      height: 400px;
+      border-top-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      background-image: url('diamondear/dia5.1.webp');
+      background-size: contain;
+      }
+      
+      
+      #diamond .diamond-earrings-main .diamond-earring-div1 .diamond-earrings-box5:hover{
+       background-image: url('diamondear/dai5.2.webp');
+       width: 380px;
+       height: 400px;
+       border: 1px solid  rgba(218, 215, 29, 0.788);
+       transition: 250ms;
+
+       }
+
+       #diamond .diamond-earrings-main .diamond-earring-div1 .diamond-earrings-box6{
+        width: 350px;
+        height: 400px;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        background-image: url('diamondear/dia6.2.webp');
+        background-size: contain;
+        }
+        
+        
+        #diamond .diamond-earrings-main .diamond-earring-div1 .diamond-earrings-box6:hover{
+          background-image: url('diamondear/dia6.1.webp');
+          width: 380px;
+         height: 400px;
+         border: 1px solid  rgba(218, 215, 29, 0.788);
+         transition: 250ms;
+
+         }
+
+/* ------------------------------img ---------------------------- */
+
+/* <!-- =========================    DIAMOND WORK END FROM HERE    ========================= --> */
+
+
+
+/* <!-- =========================    GEMSTONE WORK START FROM HERE    ========================= --> */
+
+#gem {
+  width: 100%;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+#gem .gem-earrings-main .gem-earring-div1 {
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 10px;
+justify-content: center;
+}
+/* ------------------   this is best seller ------------------------- */
+#gem .gem-earrings-main .gem-earring-div1 p{
+width: 135px;
+height: 35px;
+border: 1px solid rgba(116, 114, 7, 0.788) ;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+margin-top: 8px;
+margin-left: 10px;
+padding-left: 20px;
+padding-top: 7px;
+font-size: 12px;
+background-color: rgba(218, 215, 29, 0.788);
+}
+
+#gem .gem-earrings-main .gem-earring-div1 .gem-earrings-box1{
+width: 350px;
+height: 400px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-image: url('gem/gem5.1.webp');
+background-size: contain;
+}
+
+
+
+#gem .gem-earrings-main .gem-earring-div1 .gem-earrings-box1:hover{
+background-image: url('gem/gem5.2.webp');
+width: 380px;
+height: 400px;
+border: 1px solid  rgba(218, 215, 29, 0.788);
+transition: 250ms;
+}
+
+
+#gem .gem-earrings-main .gem-earring-div1 .gem-earrings-box2{
+width: 350px;
+height: 400px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-image: url('gem/gem2.1.webp');
+background-size: contain;
+}
+
+
+#gem .gem-earrings-main .gem-earring-div1 .gem-earrings-box2:hover{
+ background-image: url('gem/gem2.2.webp');
+ width: 380px;
+ height: 400px;
+ border: 1px solid  rgba(218, 215, 29, 0.788);
+ transition: 250ms;
+
+ }
+
+ #gem .gem-earrings-main .gem-earring-div1 .gem-earrings-box3{
+  width: 350px;
+  height: 400px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-image: url('gem/gem4.1.webp');
+  background-size: contain;
+  }
+  
+  
+  #gem .gem-earrings-main .gem-earring-div1 .gem-earrings-box3:hover{
+   background-image: url('gem/gem4.2.webp');
+   width: 368px;
+   height: 400px;
+  border: 1px solid  rgba(218, 215, 29, 0.788);
+   transition: 250ms;
+
+   }
+
+   #gem .gem-earrings-main .gem-earring-div1 .gem-earrings-box4{
+    width: 350px;
+    height: 400px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-image: url('gem/gem1.1.webp');
+    background-size: contain;
+    }
+    
+    
+    #gem .gem-earrings-main .gem-earring-div1 .gem-earrings-box4:hover{
+      background-image: url('gem/gem1.2.webp');
+      width: 380px;
+     height: 400px;
+     border: 1px solid  rgba(218, 215, 29, 0.788);
+     transition: 250ms;
+
+
+     }
+
+     #gem .gem-earrings-main .gem-earring-div1 .gem-earrings-box5{
+      width: 350px;
+      height: 400px;
+      border-top-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      background-image: url('gem/gem3.1.webp');
+      background-size: contain;
+      }
+      
+      
+      #gem .gem-earrings-main .gem-earring-div1 .gem-earrings-box5:hover{
+        background-image: url('gem/gem3.2.webp');
+        width: 380px;
+       height: 400px;
+       border: 1px solid  rgba(218, 215, 29, 0.788);
+       transition: 250ms;
+
+       }
+
+       #gem .gem-earrings-main .gem-earring-div1 .gem-earrings-box6{
+        width: 350px;
+        height: 400px;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        background-image: url('gem/gem6.1.webp');
+        background-size: contain;
+        }
+        
+        
+        #gem .gem-earrings-main .gem-earring-div1 .gem-earrings-box6:hover{
+          background-image: url('gem/gem6.2.webp');
+          width: 380px;
+         height: 400px;
+         border: 1px solid  rgba(218, 215, 29, 0.788);
+         transition: 250ms;
+
+         }
+
+/* ------------------------------img ---------------------------- */
+
+/* <!-- =========================    GEMSTONE WORK END FROM HERE    ========================= --> */
+
+
+/* <!-- =========================    DIAMOND RING WORK START FROM HERE    ========================= --> */
+
+#diamond-handring {
+  width: 100%;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+#diamond-handring .diamond-handring-earrings-main .diamond-handring-earring-div1 {
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 10px;
+justify-content: center;
+}
+/* ------------------   this is best seller ------------------------- */
+#diamond-handring .diamond-handring-earrings-main .diamond-handring-earring-div1 p{
+width: 135px;
+height: 35px;
+border: 1px solid rgba(116, 114, 7, 0.788) ;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+margin-top: 8px;
+margin-left: 10px;
+padding-left: 20px;
+padding-top: 7px;
+font-size: 12px;
+background-color: rgba(218, 215, 29, 0.788);
+}
+
+#diamond-handring .diamond-handring-earrings-main .diamond-handring-earring-div1 .diamond-handring-earrings-box1{
+width: 350px;
+height: 400px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-image: url('diaring/1.3.webp');
+background-size: cover;
+}
+
+
+
+#diamond-handring .diamond-handring-earrings-main .diamond-handring-earring-div1 .diamond-handring-earrings-box1:hover{
+background-image: url('diaring/2.2.webp');
+width: 380px;
+height: 400px;
+border: 1px solid  rgba(218, 215, 29, 0.788);
+transition: 250ms;
+}
+
+
+#diamond-handring .diamond-handring-earrings-main .diamond-handring-earring-div1 .diamond-handring-earrings-box2{
+width: 350px;
+height: 400px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-image: url('diaring/1.1.webp');
+background-size: contain;
+}
+
+
+  #diamond-handring .diamond-handring-earrings-main .diamond-handring-earring-div1 .diamond-handring-earrings-box2:hover{
+ background-image: url('diaring/1.2.webp');
+ width: 380px;
+ height: 400px;
+ border: 1px solid  rgba(218, 215, 29, 0.788);
+ transition: 250ms;
+
+ }
+
+ #diamond-handring .diamond-handring-earrings-main .diamond-handring-earring-div1 .diamond-handring-earrings-box3{
+  width: 350px;
+  height: 400px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-image: url('diaring/3.1.webp');
+  background-size: contain;
+  }
+  
+  
+    #diamond-handring .diamond-handring-earrings-main .diamond-handring-earring-div1 .diamond-handring-earrings-box3:hover{
+   background-image: url('diaring/3.2.jpg');
+   width: 368px;
+   height: 400px;
+  border: 1px solid  rgba(218, 215, 29, 0.788);
+   transition: 250ms;
+
+   }
+
+   #diamond-handring .diamond-handring-earrings-main .diamond-handring-earring-div1 .diamond-handring-earrings-box4{
+    width: 350px;
+    height: 400px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-image: url('diaring/4.1.webp');
+    background-size: contain;
+    }
+    
+    
+    #diamond-handring .diamond-handring-earrings-main .diamond-handring-earring-div1 .diamond-handring-earrings-box4:hover{
+     background-image: url('diaring/4.2.webp');
+     width: 380px;
+     height: 400px;
+     border: 1px solid  rgba(218, 215, 29, 0.788);
+     transition: 250ms;
+
+
+     }
+
+     #diamond-handring .diamond-handring-earrings-main .diamond-handring-earring-div1 .diamond-handring-earrings-box5{
+      width: 350px;
+      height: 400px;
+      border-top-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      background-image: url('diaring/88.webp');
+      background-size: contain;
+      }
+      
+      
+      #diamond-handring .diamond-handring-earrings-main .diamond-handring-earring-div1 .diamond-handring-earrings-box5:hover{
+       background-image: url('diaring/50E4SRFADA237_2.jpg');
+       width: 380px;
+       height: 400px;
+       border: 1px solid  rgba(218, 215, 29, 0.788);
+       transition: 250ms;
+
+       }
+
+       #diamond-handring .diamond-handring-earrings-main .diamond-handring-earring-div1 .diamond-handring-earrings-box6{
+        width: 350px;
+        height: 400px;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        background-image: url('diaring/6.1.webp');
+        background-size: contain;
+        }
+        
+        
+        #diamond-handring .diamond-handring-earrings-main .diamond-handring-earring-div1 .diamond-handring-earrings-box6:hover{
+          background-image: url('diaring/6.2.webp');
+          width: 380px;
+         height: 400px;
+         border: 1px solid  rgba(218, 215, 29, 0.788);
+         transition: 250ms;
+
+         }
+
+/* ------------------------------img ---------------------------- */
+/* <!-- =========================    DIAMOND RING WORK END FROM HERE    ========================= --> */
+
+
+
+
+
+/* <!-- =========================    GOLD RING WORK START FROM HERE    ========================= --> */
+
+#gold-handring {
+  width: 100%;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+#gold-handring .gold-handring-earrings-main .gold-handring-earring-div1 {
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 10px;
+justify-content: center;
+}
+/* ------------------   this is best seller ------------------------- */
+#gold-handring .gold-handring-earrings-main .gold-handring-earring-div1 p{
+width: 135px;
+height: 35px;
+border: 1px solid rgba(116, 114, 7, 0.788) ;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+margin-top: 8px;
+margin-left: 10px;
+padding-left: 20px;
+padding-top: 7px;
+font-size: 12px;
+background-color: rgba(218, 215, 29, 0.788);
+}
+
+#gold-handring .gold-handring-earrings-main .gold-handring-earring-div1 .gold-handring-earrings-box1{
+width: 350px;
+height: 400px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-image: url('golhandring/1.2.webp');
+background-size: contain;
+}
+
+
+
+#gold-handring .gold-handring-earrings-main .gold-handring-earring-div1 .gold-handring-earrings-box1:hover{
+background-image: url('golhandring/1.1.webp');
+width: 380px;
+height: 400px;
+border: 1px solid  rgba(218, 215, 29, 0.788);
+transition: 250ms;
+}
+
+
+#gold-handring .gold-handring-earrings-main .gold-handring-earring-div1 .gold-handring-earrings-box2{
+width: 350px;
+height: 400px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-image: url('golhandring/2.1.webp');
+background-size: contain;
+}
+
+
+  #gold-handring .gold-handring-earrings-main .gold-handring-earring-div1 .gold-handring-earrings-box2:hover{
+    background-image: url('golhandring/2.2.webp');
+    width: 380px;
+ height: 400px;
+ border: 1px solid  rgba(218, 215, 29, 0.788);
+ transition: 250ms;
+
+ }
+
+ #gold-handring .gold-handring-earrings-main .gold-handring-earring-div1 .gold-handring-earrings-box3{
+  width: 350px;
+  height: 400px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-image: url('golhandring/3.1.webp');
+  background-size: contain;
+  }
+  
+  
+    #gold-handring .gold-handring-earrings-main .gold-handring-earring-div1 .gold-handring-earrings-box3:hover{
+      background-image: url('golhandring/3.2.webp');
+      width: 368px;
+   height: 400px;
+  border: 1px solid  rgba(218, 215, 29, 0.788);
+   transition: 250ms;
+
+   }
+
+   #gold-handring .gold-handring-earrings-main .gold-handring-earring-div1 .gold-handring-earrings-box4{
+    width: 350px;
+    height: 400px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-image: url('golhandring/510122FAAAA00_1.webp');
+    background-size: contain;
+    }
+    
+    
+    #gold-handring .gold-handring-earrings-main .gold-handring-earring-div1 .gold-handring-earrings-box4:hover{
+      background-image: url('golhandring/510122FAAAA00.webp');
+      width: 380px;
+     height: 400px;
+     border: 1px solid  rgba(218, 215, 29, 0.788);
+     transition: 250ms;
+
+
+     }
+
+     #gold-handring .gold-handring-earrings-main .gold-handring-earring-div1 .gold-handring-earrings-box5{
+      width: 350px;
+      height: 400px;
+      border-top-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      background-image: url('golhandring/5.1.webp');
+      background-size: contain;
+      }
+      
+      
+      #gold-handring .gold-handring-earrings-main .gold-handring-earring-div1 .gold-handring-earrings-box5:hover{
+        background-image: url('golhandring/5.2.webp');
+        width: 380px;
+       height: 400px;
+       border: 1px solid  rgba(218, 215, 29, 0.788);
+       transition: 250ms;
+
+       }
+       #gold-handring .gold-handring-earrings-main .gold-handring-earring-div1 .gold-handring-earrings-box6{
+        width: 350px;
+        height: 400px;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        background-image: url('golhandring/6.1.webp');
+        background-size: contain;
+        }
+        
+        
+        #gold-handring .gold-handring-earrings-main .gold-handring-earring-div1 .gold-handring-earrings-box6:hover{
+          background-image: url('golhandring/6.2.webp');
+          width: 380px;
+         height: 400px;
+         border: 1px solid  rgba(218, 215, 29, 0.788);
+         transition: 250ms;
+
+         }
+
+/* ------------------------------img ---------------------------- */
+/* <!-- =========================    GOLD RING WORK END FROM HERE    ========================= --> */
+
+
+
+/* <!-- =========================    Gem RING WORK START FROM HERE    ========================= --> */
+
+#gem-handring {
+  width: 100%;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+#gem-handring .gem-handring-earrings-main .gem-handring-earring-div1 {
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 10px;
+justify-content: center;
+}
+/* ------------------   this is best seller ------------------------- */
+#gem-handring .gem-handring-earrings-main .gem-handring-earring-div1 p{
+width: 135px;
+height: 35px;
+border: 1px solid rgba(116, 114, 7, 0.788) ;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+margin-top: 8px;
+margin-left: 10px;
+padding-left: 20px;
+padding-top: 7px;
+font-size: 12px;
+background-color: rgba(218, 215, 29, 0.788);
+}
+
+#gem-handring .gem-handring-earrings-main .gem-handring-earring-div1 .gem-handring-earrings-box1{
+width: 350px;
+height: 400px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-image: url('gemring/1.1.webp');
+background-size: contain;
+}
+
+
+
+#gem-handring .gem-handring-earrings-main .gem-handring-earring-div1 .gem-handring-earrings-box1:hover{
+  background-image: url('gemring/1.2.webp');
+  width: 380px;
+height: 400px;
+border: 1px solid  rgba(218, 215, 29, 0.788);
+transition: 250ms;
+}
+
+
+#gem-handring .gem-handring-earrings-main .gem-handring-earring-div1 .gem-handring-earrings-box2{
+width: 350px;
+height: 400px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-image: url('gemring/2.1.webp');
+background-size: contain;
+}
+
+
+#gem-handring .gem-handring-earrings-main .gem-handring-earring-div1 .gem-handring-earrings-box2:hover{
+  background-image: url('gemring/2.2.webp');
+  width: 380px;
+ height: 400px;
+ border: 1px solid  rgba(218, 215, 29, 0.788);
+ transition: 250ms;
+
+ }
+
+ #gem-handring .gem-handring-earrings-main .gem-handring-earring-div1 .gem-handring-earrings-box3{
+  width: 350px;
+  height: 400px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-image: url('gemring/3.1.webp');
+  background-size: contain;
+  }
+  
+  
+  #gem-handring .gem-handring-earrings-main .gem-handring-earring-div1 .gem-handring-earrings-box3:hover{
+    background-image: url('gemring/3.2.webp');
+    width: 368px;
+   height: 400px;
+  border: 1px solid  rgba(218, 215, 29, 0.788);
+   transition: 250ms;
+
+   }
+
+   #gem-handring .gem-handring-earrings-main .gem-handring-earring-div1 .gem-handring-earrings-box4{
+    width: 350px;
+    height: 400px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-image: url('gemring/4.1.webp');
+    background-size: contain;
+    }
+    
+    
+    #gem-handring .gem-handring-earrings-main .gem-handring-earring-div1 .gem-handring-earrings-box4:hover{
+      background-image: url('gemring/4.2.webp');
+      width: 380px;
+     height: 400px;
+     border: 1px solid  rgba(218, 215, 29, 0.788);
+     transition: 250ms;
+
+
+     }
+
+     #gem-handring .gem-handring-earrings-main .gem-handring-earring-div1 .gem-handring-earrings-box5{
+      width: 350px;
+      height: 400px;
+      border-top-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      background-image: url('gemring/6.1.webp');
+      background-size: contain;
+      }
+      
+      
+      #gem-handring .gem-handring-earrings-main .gem-handring-earring-div1 .gem-handring-earrings-box5:hover{
+        background-image: url('gemring/6.2.webp');
+        width: 380px;
+       height: 400px;
+       border: 1px solid  rgba(218, 215, 29, 0.788);
+       transition: 250ms;
+
+       }
+       #gem-handring .gem-handring-earrings-main .gem-handring-earring-div1 .gem-handring-earrings-box6{
+        width: 350px;
+        height: 400px;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        background-image: url('gemring/5.1.webp');
+        background-size: contain;
+        }
+        
+        
+        #gem-handring .gem-handring-earrings-main .gem-handring-earring-div1 .gem-handring-earrings-box6:hover{
+          background-image: url('gemring/5.2.webp');
+          width: 380px;
+         height: 400px;
+         border: 1px solid  rgba(218, 215, 29, 0.788);
+         transition: 250ms;
+
+         }
+
+/* ------------------------------img ---------------------------- */
+/* <!-- =========================    Gem RING WORK END FROM HERE    ========================= --> */
+
+
+
+
+/* <!-- =========================    DIAMOND NCAKLESS WORK START FROM HERE    ========================= --> */
+
+#diamond-nackless {
+  width: 100%;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+#diamond-nackless .diamond-nackless-earrings-main .diamond-nackless-earring-div1 {
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 10px;
+justify-content: center;
+}
+/* ------------------   this is best seller ------------------------- */
+#diamond-nackless .diamond-nackless-earrings-main .diamond-nackless-earring-div1 p{
+width: 135px;
+height: 35px;
+border: 1px solid rgba(116, 114, 7, 0.788) ;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+margin-top: 8px;
+margin-left: 10px;
+padding-left: 20px;
+padding-top: 7px;
+font-size: 12px;
+background-color: rgba(218, 215, 29, 0.788);
+}
+
+#diamond-nackless .diamond-nackless-earrings-main .diamond-nackless-earring-div1 .diamond-nackless-earrings-box1{
+width: 350px;
+height: 400px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-image: url('diaring/1.3.webp');
+background-size: cover;
+}
+
+
+
+#diamond-nackless .diamond-nackless-earrings-main .diamond-nackless-earring-div1 .diamond-nackless-earrings-box1:hover{
+background-image: url('diaring/2.2.webp');
+width: 380px;
+height: 400px;
+border: 1px solid  rgba(218, 215, 29, 0.788);
+transition: 250ms;
+}
+
+
+#diamond-nackless .diamond-nackless-earrings-main .diamond-nackless-earring-div1 .diamond-nackless-earrings-box2{
+width: 350px;
+height: 400px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-image: url('diaring/1.1.webp');
+background-size: contain;
+}
+
+
+#diamond-nackless .diamond-nackless-earrings-main .diamond-nackless-earring-div1 .diamond-nackless-earrings-box2:hover{
+ background-image: url('diaring/1.2.webp');
+ width: 380px;
+ height: 400px;
+ border: 1px solid  rgba(218, 215, 29, 0.788);
+ transition: 250ms;
+
+ }
+
+ #diamond-nackless .diamond-nackless-earrings-main .diamond-nackless-earring-div1 .diamond-nackless-earrings-box3{
+  width: 350px;
+  height: 400px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-image: url('diaring/3.1.webp');
+  background-size: contain;
+  }
+
+  #diamond-nackless .diamond-nackless-earrings-main .diamond-nackless-earring-div1 .diamond-nackless-earrings-box3:hover{
+   background-image: url('diaring/3.2.jpg');
+   width: 368px;
+   height: 400px;
+  border: 1px solid  rgba(218, 215, 29, 0.788);
+   transition: 250ms;
+
+   }
+
+
+
+   #diamond-nackless .diamond-nackless-earrings-main .diamond-nackless-earring-div1 .diamond-nackless-earrings-box4{
+    width: 350px;
+    height: 400px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-image: url('diaring/4.1.webp');
+    background-size: contain;
+    }
+    
+    
+
+
+    #diamond-nackless .diamond-nackless-earrings-main .diamond-nackless-earring-div1 .diamond-nackless-earrings-box4:hover{
+     background-image: url('diaring/4.2.webp');
+     width: 380px;
+     height: 400px;
+     border: 1px solid  rgba(218, 215, 29, 0.788);
+     transition: 250ms;
+
+
+     }
+
+
+     #diamond-nackless .diamond-nackless-earrings-main .diamond-nackless-earring-div1 .diamond-nackless-earrings-box5{
+      width: 350px;
+      height: 400px;
+      border-top-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      background-image: url('diaring/88.webp');
+      background-size: contain;
+      }
+      
+      
+
+
+      #diamond-nackless .diamond-nackless-earrings-main .diamond-nackless-earring-div1 .diamond-nackless-earrings-box5:hover{
+       background-image: url('diaring/50E4SRFADA237_2.jpg');
+       width: 380px;
+       height: 400px;
+       border: 1px solid  rgba(218, 215, 29, 0.788);
+       transition: 250ms;
+
+       }
+
+   
+
+ #diamond-nackless .diamond-nackless-earrings-main .diamond-nackless-earring-div1 .diamond-nackless-earrings-box6{
+        width: 350px;
+        height: 400px;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        background-image: url('diaring/6.1.webp');
+        background-size: contain;
+        }
+
+  #diamond-nackless .diamond-nackless-earrings-main .diamond-nackless-earring-div1 .diamond-nackless-earrings-box6:hover{
+  background-image: url('diaring/6.2.webp');
+  width: 380px;
+  height: 400px;
+  border: 1px solid  rgba(218, 215, 29, 0.788);
+  transition: 250ms;
+         }
+
+/* ------------------------------img ---------------------------- */
+/* <!-- =========================    DIAMOND NACKLESS WORK END FROM HERE    ========================= --> */
+
+
+/* <!-- =========================    GEMSTONE NCAKLESS WORK START FROM HERE    ========================= --> */
+
+#gem-nackless {
+  width: 100%;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+#gem-nackless .gem-nackless-earrings-main .gem-nackless-earring-div1 {
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 10px;
+justify-content: center;
+}
+/* ------------------   this is best seller ------------------------- */
+#gem-nackless .gem-nackless-earrings-main .gem-nackless-earring-div1 p{
+width: 135px;
+height: 35px;
+border: 1px solid rgba(116, 114, 7, 0.788) ;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+margin-top: 8px;
+margin-left: 10px;
+padding-left: 20px;
+padding-top: 7px;
+font-size: 12px;
+background-color: rgba(218, 215, 29, 0.788);
+}
+
+#gem-nackless .gem-nackless-earrings-main .gem-nackless-earring-div1 .gem-nackless-earrings-box1{
+width: 350px;
+height: 400px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-image: url('diaring/1.3.webp');
+background-size: cover;
+}
+
+
+
+#gem-nackless .gem-nackless-earrings-main .gem-nackless-earring-div1 .gem-nackless-earrings-box1:hover{
+background-image: url('diaring/2.2.webp');
+width: 380px;
+height: 400px;
+border: 1px solid  rgba(218, 215, 29, 0.788);
+transition: 250ms;
+}
+
+#gem-nackless .gem-nackless-earrings-main .gem-nackless-earring-div1 .gem-nackless-earrings-box2{
+width: 350px;
+height: 400px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-image: url('diaring/1.1.webp');
+background-size: contain;
+}
+
+
+#gem-nackless .gem-nackless-earrings-main .gem-nackless-earring-div1 .gem-nackless-earrings-box2:hover{
+ background-image: url('diaring/1.2.webp');
+ width: 380px;
+ height: 400px;
+ border: 1px solid  rgba(218, 215, 29, 0.788);
+ transition: 250ms;
+
+ }
+
+ #gem-nackless .gem-nackless-earrings-main .gem-nackless-earring-div1 .gem-nackless-earrings-box3{
+  width: 350px;
+  height: 400px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-image: url('diaring/3.1.webp');
+  background-size: contain;
+  }
+
+  #gem-nackless .gem-nackless-earrings-main .gem-nackless-earring-div1 .gem-nackless-earrings-box3:hover{
+   background-image: url('diaring/3.2.jpg');
+   width: 368px;
+   height: 400px;
+  border: 1px solid  rgba(218, 215, 29, 0.788);
+   transition: 250ms;
+
+   }
+
+
+
+#gem-nackless .gem-nackless-earrings-main .gem-nackless-earring-div1 .gem-nackless-earrings-box4{
+    width: 350px;
+    height: 400px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-image: url('diaring/4.1.webp');
+    background-size: contain;
+    }
+    
+    
+
+
+ #gem-nackless .gem-nackless-earrings-main .gem-nackless-earring-div1 .gem-nackless-earrings-box4:hover{
+     background-image: url('diaring/4.2.webp');
+     width: 380px;
+     height: 400px;
+     border: 1px solid  rgba(218, 215, 29, 0.788);
+     transition: 250ms;
+
+
+     }
+
+
+ #gem-nackless .gem-nackless-earrings-main .gem-nackless-earring-div1 .gem-nackless-earrings-box5{
+      width: 350px;
+      height: 400px;
+      border-top-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      background-image: url('diaring/88.webp');
+      background-size: contain;
+      }
+      
+      
+
+ #gem-nackless .gem-nackless-earrings-main .gem-nackless-earring-div1 .gem-nackless-earrings-box5:hover{
+       background-image: url('diaring/50E4SRFADA237_2.jpg');
+       width: 380px;
+       height: 400px;
+       border: 1px solid  rgba(218, 215, 29, 0.788);
+       transition: 250ms;
+
+       }
+
+   
+
+ #gem-nackless .gem-nackless-earrings-main .gem-nackless-earring-div1 .gem-nackless-earrings-box6{
+        width: 350px;
+        height: 400px;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        background-image: url('diaring/6.1.webp');
+        background-size: contain;
+        }
+
+#gem-nackless .gem-nackless-earrings-main .gem-nackless-earring-div1 .gem-nackless-earrings-box6:hover{
+  background-image: url('diaring/6.2.webp');
+  width: 380px;
+  height: 400px;
+  border: 1px solid  rgba(218, 215, 29, 0.788);
+  transition: 250ms;
+         }
+
+/* ------------------------------img ---------------------------- */
+/* <!-- =========================   GEMSTONE NACKLESS WORK END FROM HERE    ========================= --> */
+
+
+
+
+/* <!-- =========================    GOLD NCAKLESS WORK START FROM HERE    ========================= --> */
+
+#gold-nackless {
+  width: 100%;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+#gold-nackless .gold-nackless-earrings-main .gold-nackless-earring-div1 {
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 10px;
+justify-content: center;
+}
+/* ------------------   this is best seller ------------------------- */
+#gold-nackless .gold-nackless-earrings-main .gold-nackless-earring-div1 p{
+width: 135px;
+height: 35px;
+border: 1px solid rgba(116, 114, 7, 0.788) ;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+margin-top: 8px;
+margin-left: 10px;
+padding-left: 20px;
+padding-top: 7px;
+font-size: 12px;
+background-color: rgba(218, 215, 29, 0.788);
+}
+
+#gold-nackless .gold-nackless-earrings-main .gold-nackless-earring-div1 .gold-nackless-earrings-box1 {
+width: 350px;
+height: 400px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-image: url('diaring/1.3.webp');
+background-size: cover;
+}
+
+#gold-nackless .gold-nackless-earrings-main .gold-nackless-earring-div1 .gold-nackless-earrings-box1:hover{
+background-image: url('diaring/2.2.webp');
+width: 380px;
+height: 400px;
+border: 1px solid  rgba(218, 215, 29, 0.788);
+transition: 250ms;
+}
+
+#gold-nackless .gold-nackless-earrings-main .gold-nackless-earring-div1 .gold-nackless-earrings-box2{
+width: 350px;
+height: 400px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-image: url('diaring/1.1.webp');
+background-size: contain;
+}
+
+#gold-nackless .gold-nackless-earrings-main .gold-nackless-earring-div1 .gold-nackless-earrings-box2:hover{
+ background-image: url('diaring/1.2.webp');
+ width: 380px;
+ height: 400px;
+ border: 1px solid  rgba(218, 215, 29, 0.788);
+ transition: 250ms;
+
+ }
+
+ #gold-nackless .gold-nackless-earrings-main .gold-nackless-earring-div1 .gold-nackless-earrings-box3{
+  width: 350px;
+  height: 400px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-image: url('diaring/3.1.webp');
+  background-size: contain;
+  }
+
+  #gold-nackless .gold-nackless-earrings-main .gold-nackless-earring-div1 .gold-nackless-earrings-box3:hover{
+   background-image: url('diaring/3.2.jpg');
+   width: 368px;
+   height: 400px;
+  border: 1px solid  rgba(218, 215, 29, 0.788);
+   transition: 250ms;
+
+   }
+
+   #gold-nackless .gold-nackless-earrings-main .gold-nackless-earring-div1 .gold-nackless-earrings-box4{
+    width: 350px;
+    height: 400px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-image: url('diaring/4.1.webp');
+    background-size: contain;
+    }
+    #gold-nackless .gold-nackless-earrings-main .gold-nackless-earring-div1 .gold-nackless-earrings-box4:hover{
+     background-image: url('diaring/4.2.webp');
+     width: 380px;
+     height: 400px;
+     border: 1px solid  rgba(218, 215, 29, 0.788);
+     transition: 250ms;
+
+
+     }
+     #gold-nackless .gold-nackless-earrings-main .gold-nackless-earring-div1 .gold-nackless-earrings-box5{
+      width: 350px;
+      height: 400px;
+      border-top-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      background-image: url('diaring/88.webp');
+      background-size: contain;
+      }
+      
+      
+      #gold-nackless .gold-nackless-earrings-main .gold-nackless-earring-div1 .gold-nackless-earrings-box5:hover{
+       background-image: url('diaring/50E4SRFADA237_2.jpg');
+       width: 380px;
+       height: 400px;
+       border: 1px solid  rgba(218, 215, 29, 0.788);
+       transition: 250ms;
+
+       }
+
+       #gold-nackless .gold-nackless-earrings-main .gold-nackless-earring-div1 .gold-nackless-earrings-box6{
+        width: 350px;
+        height: 400px;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        background-image: url('diaring/6.1.webp');
+        background-size: contain;
+        }
+        #gold-nackless .gold-nackless-earrings-main .gold-nackless-earring-div1 .gold-nackless-earrings-box6:hover{
+  background-image: url('diaring/6.2.webp');
+  width: 380px;
+  height: 400px;
+  border: 1px solid  rgba(218, 215, 29, 0.788);
+  transition: 250ms;
+         }
+
+/* ------------------------------img ---------------------------- */
+/* <!-- =========================   GOLD NACKLESS WORK END FROM HERE    ========================= --> */
+
+
+
+
+/* <!-- =========================    GOLD NCAKLESS WORK START FROM HERE    ========================= --> */
+
+#gold-bangles {
+  width: 100%;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+#gold-bangles .gold-bangles-earrings-main .gold-bangles-earring-div1 {
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 10px;
+justify-content: center;
+}
+/* ------------------   this is best seller ------------------------- */
+#gold-bangles .gold-bangles-earrings-main .gold-bangles-earring-div1 p{
+width: 135px;
+height: 35px;
+border: 1px solid rgba(116, 114, 7, 0.788) ;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+margin-top: 8px;
+margin-left: 10px;
+padding-left: 20px;
+padding-top: 7px;
+font-size: 12px;
+background-color: rgba(218, 215, 29, 0.788);
+}
+
+#gold-bangles .gold-bangles-earrings-main .gold-bangles-earring-div1 .gold-bangles-earrings-box1 {
+width: 350px;
+height: 400px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-image: url('diaring/1.3.webp');
+background-size: cover;
+}
+
+#gold-bangles .gold-bangles-earrings-main .gold-bangles-earring-div1 .gold-bangles-earrings-box1 :hover{
+background-image: url('diaring/2.2.webp');
+width: 380px;
+height: 400px;
+border: 1px solid  rgba(218, 215, 29, 0.788);
+transition: 250ms;
+}
+
+#gold-bangles .gold-bangles-earrings-main .gold-bangles-earring-div1 .gold-bangles-earrings-box2{
+width: 350px;
+height: 400px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-image: url('diaring/1.1.webp');
+background-size: contain;
+}
+
+#gold-bangles .gold-bangles-earrings-main .gold-bangles-earring-div1 .gold-bangles-earrings-box2:hover{
+ background-image: url('diaring/1.2.webp');
+ width: 380px;
+ height: 400px;
+ border: 1px solid  rgba(218, 215, 29, 0.788);
+ transition: 250ms;
+
+ }
+ #gold-bangles .gold-bangles-earrings-main .gold-bangles-earring-div1 .gold-bangles-earrings-box3{
+  width: 350px;
+  height: 400px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-image: url('diaring/3.1.webp');
+  background-size: contain;
+  }
+  #gold-bangles .gold-bangles-earrings-main .gold-bangles-earring-div1 .gold-bangles-earrings-box3:hover{
+   background-image: url('diaring/3.2.jpg');
+   width: 368px;
+   height: 400px;
+  border: 1px solid  rgba(218, 215, 29, 0.788);
+   transition: 250ms;
+
+   }
+   #gold-bangles .gold-bangles-earrings-main .gold-bangles-earring-div1 .gold-bangles-earrings-box4{
+    width: 350px;
+    height: 400px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-image: url('diaring/4.1.webp');
+    background-size: contain;
+    }
+    #gold-bangles .gold-bangles-earrings-main .gold-bangles-earring-div1 .gold-bangles-earrings-box4:hover{
+     background-image: url('diaring/4.2.webp');
+     width: 380px;
+     height: 400px;
+     border: 1px solid  rgba(218, 215, 29, 0.788);
+     transition: 250ms;
+
+
+     }
+     #gold-bangles .gold-bangles-earrings-main .gold-bangles-earring-div1 .gold-bangles-earrings-box5{
+      width: 350px;
+      height: 400px;
+      border-top-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      background-image: url('diaring/88.webp');
+      background-size: contain;
+      }
+      #gold-bangles .gold-bangles-earrings-main .gold-bangles-earring-div1 .gold-bangles-earrings-box5:hover{
+       background-image: url('diaring/50E4SRFADA237_2.jpg');
+       width: 380px;
+       height: 400px;
+       border: 1px solid  rgba(218, 215, 29, 0.788);
+       transition: 250ms;
+
+       }
+       #gold-bangles .gold-bangles-earrings-main .gold-bangles-earring-div1 .gold-bangles-earrings-box6{
+        width: 350px;
+        height: 400px;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        background-image: url('diaring/6.1.webp');
+        background-size: contain;
+        }
+ #gold-bangles .gold-bangles-earrings-main .gold-bangles-earring-div1 .gold-bangles-earrings-box6:hover{
+  background-image: url('diaring/6.2.webp');
+  width: 380px;
+  height: 400px;
+  border: 1px solid  rgba(218, 215, 29, 0.788);
+  transition: 250ms;
+         }
+
+/* ------------------------------img ---------------------------- */
+/* <!-- =========================   GOLD NACKLESS WORK END FROM HERE    ========================= --> */
+
+
+
+
+/* <!-- =========================    DIAMOND RING WORK START FROM HERE    ========================= --> */
+
+#diamond-bangles {
+  width: 100%;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+#diamond-bangles .diamond-bangles-earrings-main .diamond-bangles-earring-div1 {
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 10px;
+justify-content: center;
+}
+/* ------------------   this is best seller ------------------------- */
+#diamond-bangles .diamond-bangles-earrings-main .diamond-bangles-earring-div1 p{
+width: 135px;
+height: 35px;
+border: 1px solid rgba(116, 114, 7, 0.788) ;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+margin-top: 8px;
+margin-left: 10px;
+padding-left: 20px;
+padding-top: 7px;
+font-size: 12px;
+background-color: rgba(218, 215, 29, 0.788);
+}
+
+#diamond-bangles .diamond-bangles-earrings-main .diamond-bangles-earring-div1 .diamond-bangles-earrings-box1{
+width: 350px;
+height: 400px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-image: url('diaring/1.3.webp');
+background-size: cover;
+}
+
+#diamond-bangles .diamond-bangles-earrings-main .diamond-bangles-earring-div1 .diamond-bangles-earrings-box1:hover{
+background-image: url('diaring/2.2.webp');
+width: 380px;
+height: 400px;
+border: 1px solid  rgba(218, 215, 29, 0.788);
+transition: 250ms;
+}
+
+#diamond-bangles .diamond-bangles-earrings-main .diamond-bangles-earring-div1 .diamond-bangles-earrings-box2{
+width: 350px;
+height: 400px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-image: url('diaring/1.1.webp');
+background-size: contain;
+}
+
+
+#diamond-bangles .diamond-bangles-earrings-main .diamond-bangles-earring-div1 .diamond-bangles-earrings-box2:hover{
+ background-image: url('diaring/1.2.webp');
+ width: 380px;
+ height: 400px;
+ border: 1px solid  rgba(218, 215, 29, 0.788);
+ transition: 250ms;
+
+ }
+ #diamond-bangles .diamond-bangles-earrings-main .diamond-bangles-earring-div1 .diamond-bangles-earrings-box3{
+  width: 350px;
+  height: 400px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-image: url('diaring/3.1.webp');
+  background-size: contain;
+  }
+  #diamond-bangles .diamond-bangles-earrings-main .diamond-bangles-earring-div1 .diamond-bangles-earrings-box3:hover{
+   background-image: url('diaring/3.2.jpg');
+   width: 368px;
+   height: 400px;
+  border: 1px solid  rgba(218, 215, 29, 0.788);
+   transition: 250ms;
+
+   }
+   #diamond-bangles .diamond-bangles-earrings-main .diamond-bangles-earring-div1 .diamond-bangles-earrings-box4{
+    width: 350px;
+    height: 400px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-image: url('diaring/4.1.webp');
+    background-size: contain;
+    }
+    #diamond-bangles .diamond-bangles-earrings-main .diamond-bangles-earring-div1 .diamond-bangles-earrings-box4:hover{
+     background-image: url('diaring/4.2.webp');
+     width: 380px;
+     height: 400px;
+     border: 1px solid  rgba(218, 215, 29, 0.788);
+     transition: 250ms;
+
+
+     }
+     #diamond-bangles .diamond-bangles-earrings-main .diamond-bangles-earring-div1 .diamond-bangles-earrings-box5{
+      width: 350px;
+      height: 400px;
+      border-top-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      background-image: url('diaring/88.webp');
+      background-size: contain;
+      }
+      
+      #diamond-bangles .diamond-bangles-earrings-main .diamond-bangles-earring-div1 .diamond-bangles-earrings-box5:hover{
+       background-image: url('diaring/50E4SRFADA237_2.jpg');
+       width: 380px;
+       height: 400px;
+       border: 1px solid  rgba(218, 215, 29, 0.788);
+       transition: 250ms;
+
+       }
+       #diamond-bangles .diamond-bangles-earrings-main .diamond-bangles-earring-div1 .diamond-bangles-earrings-box6{
+        width: 350px;
+        height: 400px;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        background-image: url('diaring/6.1.webp');
+        background-size: contain;
+        }
+        
+        #diamond-bangles .diamond-bangles-earrings-main .diamond-bangles-earring-div1 .diamond-bangles-earrings-box6:hover{
+          background-image: url('diaring/6.2.webp');
+          width: 380px;
+         height: 400px;
+         border: 1px solid  rgba(218, 215, 29, 0.788);
+         transition: 250ms;
+
+         }
+
+/* ------------------------------img ---------------------------- */
+/* <!-- =========================    DIAMOND RING WORK END FROM HERE    ========================= --> */
+
+
