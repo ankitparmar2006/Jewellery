@@ -23,9 +23,3 @@ var swiper = new Swiper(".mySwiper", {
   }
 });
 
-
-function openBuyPage(name, price, image) {
-  var url = "buy2.html" + encodeURIComponent(name) + "&price=" + encodeURIComponent(price) + "&image=" + encodeURIComponent(image);
-  window.location.href=url;
-}
-
