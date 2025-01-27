@@ -23,3 +23,17 @@ var swiper = new Swiper(".mySwiper", {
   }
 });
 
+
+
+// =============================== BUY ====================================
+function buyNow(img, name, price, category) {
+  // Data ko localStorage me save karenge
+  localStorage.setItem('productImg', img);
+  localStorage.setItem('productName', name);
+  localStorage.setItem('productPrice', price);
+  localStorage.setItem('category', category);
+
+
+  // Dusre page pe redirect karenge
+  window.location.href = "buy1.html";
+}
