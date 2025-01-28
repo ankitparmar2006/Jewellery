@@ -501,54 +501,65 @@
     <p>Email : Tanishq@gmail.com</p>
 
 
-    <hr>
 
     <h2>CUSTOMER DETAILS</h2>
     <P> Name : Ankit</P>
     <P> Address : ABC Street ,Bhopal</P>
     <P>Contact : 12345678123</P>
     <p>Email : ankit@gmail.com</p>
-    <hr>
+
+    
 
 
     <h2>PRODUCT DETAILS</h2>
-<form action="">
-    <table  cellspacing="20" >
-        <thead>
-            <tr>
-                <th style="padding: 15px;">
-                    PRODUCT 
-                </th >
 
-                <th style="padding: 15px;">
-                     NAME
-                </th >
 
-                <th style="padding: 15px;">
-                    QUANTITY 
-                </th>
+    
 
-                <th style="padding: 15px;">
-                    PRICE
-                </th>
+<!-- =========================    BUY FORM START FROM HERE    ========================= -->
 
+<section style=" width: 80%; height: 400px; border: 1px solid  rgba(116, 114, 7, 0.788); margin-left: 120px; border-radius: 20px; background-color: transparent;">
+
+    <section id="buy1">
+    
+        <div class="buy1-earrings-main">
+    
+            
+            <div class="buy1-earring-div1" >
+                <div class="buy1-earrings-box1" data-aos="zoom-in"  id="productImg">
+                    <p class="buy-p"> <i class="fa-regular fa-star"></i> BEST SELLERS</p>
+                    
+                </h4> 
                 
+            </div>
+            
+            <section style="  display: grid; justify-items: center;">
+                
+                <h2 style="margin-left: 20px; color:  rgba(116, 114, 7, 0.788) ;font-size: 30px; margin-bottom: 40px; margin-top: 8px;" id="category"> GOLD EARRINGS JEWELLERY</h2>
+               <h1 style=" font-size: 24px;" id="productName"> The Jyotsana Earrings</h1>
+                 <h2 id="productPrice" style="margin-left: -160px;">Rs. 30,993</h2>
+                <p style="width: 250px; ">MRP Incl. of all taxes</p>
+                <p style="width: 250px; "> Upto 20% off on Cart Value: Use Code FLAT20 *TCA</p>
+                <p style="width: 350px; margin-left: 100px; " >Diamond Earrings In 18Kt Yellow <br> Gold (1.603 gram) with Diamonds (0.1370 Ct)</p>
+                   
+    
+               
+                </section>
+        </div>
+        
+    </section>
+    
+    </section>
+    
+    
+    <!-- =========================    BUY FORM END FROM HERE    ========================= -->
+    
+<h3>THANK YOU FOR SHOPPING VISIT AGAIN HAVE A GOOD DAY...</h3>
 
-                <th style="padding: 15px;">
-                    TOTAL
-                </th>
-            </tr>
-        </thead>
-
-        <tbody id="display">
-              
-        </tbody>
-
-
-    </table>
-</form>
 </section>
   
+
+
 
 <!-- =========================     buy WORK END FROM HERE    ========================= -->
 
@@ -557,7 +568,7 @@
 
 
 <!-- --------------------------   this is line code taking from out side ------------------------ -->
-<section style=" margin-top: 300px;">
+<section style=" margin-top: 30px;">
     <?xml version="1.0" encoding="utf-8"?>
     <!-- Generator: Adobe Illustrator 26.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -700,6 +711,25 @@
  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
  <!-- =========================  this is swiper home link video========================= -->
 <!-- =========================    This is my index js script file    ========================= -->
+
+<script>
+    // show data
+    const img = localStorage.getItem('productImg');
+    const name = localStorage.getItem('productName');
+    const price = localStorage.getItem('productPrice');
+    const category= localStorage.getItem('category');
+
+
+
+    
+    document.getElementById('productImg').style.backgroundImage='url('+ img +')';
+    document.getElementById('productName').innerText = name;
+    document.getElementById('productPrice').innerText = price;
+    document.getElementById('category').innerText = category;
+
+    
+  </script>
+
     <script src="script.js"></script>
 <!-- =========================    This is my index js script file    ========================= -->
 

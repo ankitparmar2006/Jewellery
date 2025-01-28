@@ -2135,8 +2135,32 @@ height: 450px;
 /* ///<!--==================== profile  cording end from here   ===================== --> */
 
 #buy-3 {
-  height: 400px;
+  height: 900px;
   width: 80%;
   margin-left: 130px;
-  background-color: rgba(218, 215, 29, 0.616) ;
+  background-color: rgba(218, 215, 29, 0.616);
 }
+
+#buy-3 h2 {
+margin-left: 20px;
+padding: 25px;
+
+}
+
+#buy-3 p {
+  margin-left: 60px;
+  padding-top: 12px;
+  
+  }
+
+  #buy-3 .horizontal-line1 {
+color: red;
+border: 0.1px solid green;
+    background-color: rgba(218, 215, 29, 0.616);
+  }
+
+  #buy-3 H3 {
+
+    margin-left: 200px;
+  color: rgba(77, 75, 3, 0.616);
+  }

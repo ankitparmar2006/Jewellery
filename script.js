@@ -37,3 +37,15 @@ function buyNow(img, name, price, category) {
   // Dusre page pe redirect karenge
   window.location.href = "buy1.html";
 }
+
+// ======================== buy 1 ==================================================
+
+// let product=document.querySelector("#product");
+// let productName=document.querySelector("#productName");
+
+// let dis=document.querySelector("#display");
+
+// dis.innerHTML=productName;
+
+
+// console.log()
