@@ -17,9 +17,14 @@ let data1=document.querySelector(".data1")
  
  let data3=document.querySelector(".data3")
  let ans3=localStorage.getItem("useremail")
- data3.innerHTML=`Your email is =`+ ans3;
+ data3.innerHTML=`Your email is =`+ans3;
 
- 
+
+ let data6=document.querySelector(".data6")
+ let ans6=localStorage.getItem("useraddress")
+ data3.innerHTML=`Your address =`+ans6;
+
+
 let data4=document.querySelector(".data4")
 let ans4=localStorage.getItem("userpassword")
 data4.innerHTML=`Your password is =`+ans4;

@@ -15,6 +15,8 @@ let sign =()=> {
     let namee=document.querySelector(".name").value;
     let number=document.querySelector(".number").value;
     let email=document.querySelector(".email").value;
+    let address=document.querySelector(".address").value;
+
     let pass=document.querySelector(".pass").value;
     let cpass=document.querySelector(".cpass").value;
     
@@ -111,8 +113,11 @@ let sign =()=> {
     localStorage.setItem("username",namee)
     localStorage.setItem("usernumber",number)
     localStorage.setItem("useremail",email)
+    localStorage.setItem("useraddress",address)
     localStorage.setItem("userpassword",pass)
     localStorage.setItem("usercpass",cpass)
+
+
     
     
     //go on login 
@@ -128,14 +133,14 @@ let sign =()=> {
     
     
     
-    VANTA.NET({
-        el: "#signup",
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 500.00,
-        minWidth: 200.00,
-        scale: 1.00,
-        scaleMobile: 1.00,
-        spacing: 17.00
-      })
+    // VANTA.NET({
+    //     el: "#signup",
+    //     mouseControls: true,
+    //     touchControls: true,
+    //     gyroControls: false,
+    //     minHeight: 500.00,
+    //     minWidth: 200.00,
+    //     scale: 1.00,
+    //     scaleMobile: 1.00,
+    //     spacing: 17.00
+    //   })
