@@ -489,10 +489,9 @@
 
 <!-- =========================    BUY FORM START FROM HERE    ========================= -->
 
-<section style=" width: 80%; height: 400px; border: 1px solid  rgba(116, 114, 7, 0.788); margin-left: 120px; border-radius: 20px; background-color: rgba(218, 215, 29, 0.616);">
+<section id="user1" style=" width: 80%; height: 400px; border: 1px solid  rgba(116, 114, 7, 0.788); margin-left: 120px; border-radius: 20px; background-color: rgba(218, 215, 29, 0.616);">
 
-<section id="buy1">
-
+<section  id="buy1">
     <div class="buy1-earrings-main">
 
         
@@ -504,6 +503,7 @@
             
         </div>
         
+    
         <section style="  display: grid; justify-items: center;">
             
             <h2 style="margin-left: 20px; color:  rgba(116, 114, 7, 0.788) ;font-size: 30px; margin-bottom: 40px; margin-top: 8px;" id="category"> GOLD EARRINGS JEWELLERY</h2>
@@ -513,7 +513,7 @@
             <p style="width: 250px; "> Upto 20% off on Cart Value: Use Code FLAT20 *TCA</p>
             <p style="width: 350px; margin-left: 100px; " >Diamond Earrings In 18Kt Yellow <br> Gold (1.603 gram) with Diamonds (0.1370 Ct)</p>
                
-         <a href="buy3.html"><button  class="buy-earring-buy-btn"> CONFIRM BUY </button></a> 
+       <button onclick="userInput()"   class="buy-earring-buy-btn"> CONFIRM BUY </button>
 
            
             </section>
@@ -522,13 +522,23 @@
 </section>
 
 </section>
-
-<section>
-
-    <div id="show">
+<section   id="take-input" >
+       
+    <div style=" display: none; height: 480px; width: 500px; background-color: rgba(0, 0, 0, 0.582); margin-left: 420px;" id="user">
+    <div style=" display: grid; justify-content: center; gap: 20px;  grid-template-columns: auto auto; padding-top: 40px;">
+        <br> 
+        Name : <input type="text" placeholder="enter name" >  <br>
+        Address : <input type="text" placeholder="enter address"> <br>
+        Pin Code : <input type="number" placeholder="enter pin code"> <br>
+        Contact Number : <input type="text" placeholder="enter number"> <br>
+        Nearby Location : <input type="text" placeholder="enter location">  <br>
+       
+         <input type="submit" style=" margin-left: -20px;">
 
     </div>
+</div>
 </section>
+
 
 
 <!-- =========================    BUY FORM END FROM HERE    ========================= -->

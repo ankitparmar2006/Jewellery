@@ -35,7 +35,7 @@ function buyNow(img, name, price, category) {
 
 
   // Dusre page pe redirect karenge
-  window.location.href = "buy1.html";
+  window.location.href ="buy1.html";
 }
 
 // ======================== buy 1 ==================================================
@@ -49,12 +49,21 @@ function buyNow(img, name, price, category) {
 
 
 // console.log()
+let userInput=()=>
+{
+    let uma=document.querySelector("#user");
+    let uma1=document.querySelector("#user1");
+    uma1.style.display="none";
+    uma.style.display="block";
+
+}
 
 let sim =()=>{ 
 
  let show =document.querySelector("#show");
 
  show.innerHTML=`
+
 
 
  <section id="gold">

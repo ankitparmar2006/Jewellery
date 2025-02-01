@@ -2166,3 +2166,18 @@ border: 0.1px solid green;
     margin-left: 200px;
   color: rgba(77, 75, 3, 0.616);
   }
+
+  #take-input 
+  {
+ position: relative; 
+ background-image: url(./siginimg/image\ copy.png)  ;    
+ background-repeat: no-repeat;
+background-size: cover;
+font-size: 22px;
+color: #fff;
+font-weight: bolder;
+border-radius: 10px;
+  }
+  
+
+ 
