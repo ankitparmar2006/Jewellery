@@ -184,7 +184,7 @@ let sim =()=>{
 let fetchData=  async ()=>{
 
     try{
-    let url='http://localhost:3000/carbooking';
+    let url='http://localhost:3000/Tanishq';
      let res= await fetch(url,{method:"GET"})
      let data=await res.json()
      console.log(data);
@@ -251,7 +251,7 @@ let fetchData=  async ()=>{
   
   
   //============================  POST ===========================================
-  let ins=()=>{
+  let sub=()=>{
    
     let pickloc=document.querySelector(".nameinp").value;
     let droploc=document.querySelector(".addressinp").value;
@@ -259,7 +259,7 @@ let fetchData=  async ()=>{
     let dropdate=document.querySelector(".contactinp").value;
     let picktime=document.querySelector(".locationinp").value;
   
-    let url='http://localhost:3000/carbooking'
+    let url='http://localhost:3000/Tanishq'
     fetch(url,{
         method:"POST",
         headers:{
