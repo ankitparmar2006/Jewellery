@@ -1,0 +1,19 @@
+{
+    "Tanishq": [
+      {
+        "nameinpjs": "Arun",
+        "addressinpjs": "Bhopal",
+        "pininpjs": "466111",
+        "contactinpjs": "1234567890",
+        "locationinpjs": "sharmar hospital"
+      },
+      {
+        "nameinpjs": "Abhishek",
+        "addressinpjs": "Sehore",
+        "pininpjs": "462333",
+        "contactinpjs": "9102837465",
+        "locationinpjs": "hostal"
+      }
+    
+    ]
+  }

@@ -172,3 +172,211 @@ let sim =()=>{
  
  `
 }
+
+
+
+
+
+
+//============================  GET ===========================================
+
+
+let fetchData=  async ()=>{
+
+    try{
+    let url='http://localhost:3000/carbooking';
+     let res= await fetch(url,{method:"GET"})
+     let data=await res.json()
+     console.log(data);
+  
+     let displayname=document.querySelector("#displayname")
+     let displayaddress=document.querySelector("#displayaddress")
+     let displaypincode=document.querySelector("#displaypincode")
+     let displaycontact=document.querySelector("#displaycontact")
+     let displaylocation=document.querySelector("#displaylocation")
+
+  
+     data.map((e)=>{
+        displayname.innerHTML=` ${e.nameinpjs}
+        `
+         displayaddress.innerHTML=` ${e.addressinpjs}
+        ` 
+        displaypincode.innerHTML=` ${e.pininpjs}
+        `
+         displaycontact.innerHTML=` ${e.contactinpjs}
+        `
+         displaylocation.innerHTML=` ${e.locationinpjs}
+        `
+     })
+  
+    }
+    catch(error){
+        console.log(error);
+        
+    }
+  
+  
+  }
+  
+   // =================================== delete ====================================
+
+//   let condelte=(id)=>{
+//     Swal.fire({
+//         title: "Are you sure?",
+//         text: "You won't be able to revert this!",
+//         icon: "warning",
+//         showCancelButton: true,
+//         confirmButtonColor: "#3085d6",
+//         cancelButtonColor: "#d33",
+//         confirmButtonText: "Yes, delete it!"
+//       }).then((result) => {
+//         if (result.isConfirmed) {
+//             del(id)
+//           Swal.fire({
+//             title: "Deleted!",
+//             text: "Your file has been deleted.",
+//             icon: "success"
+//           });
+//         }
+//       });
+//   }
+  
+//   let del=(id)=>{
+   
+//     let url=`http://localhost:3000/carbooking/${id}`
+//     fetch(url,{
+//         method:"DELETE"
+//     })
+//   }
+  
+  
+  //============================  POST ===========================================
+  let ins=()=>{
+   
+    let pickloc=document.querySelector(".nameinp").value;
+    let droploc=document.querySelector(".addressinp").value;
+    let pickdate=document.querySelector(".pininp").value;
+    let dropdate=document.querySelector(".contactinp").value;
+    let picktime=document.querySelector(".locationinp").value;
+  
+    let url='http://localhost:3000/carbooking'
+    fetch(url,{
+        method:"POST",
+        headers:{
+            "Content-Type":"application/json"
+        },
+        body:JSON.stringify({
+            "nameinpjs": pickloc,
+            "addressinpjs": droploc,
+            "pininpjs": pickdate,
+            "contactinpjs": dropdate,
+            "locationinpjs": picktime
+        })
+  
+    })
+
+    location.href="buy3.html"
+
+  return false;
+  
+  }
+  
+  /*
+ // ===================================Update form====================================
+
+
+ 
+ let formfill=async(id)=>{
+
+    let url=`http://localhost:3000/carbooking/${id}`
+   let res=await fetch(url)
+   let data=await res.json()
+  
+   let formdata=`
+
+    
+    <section id="booking" >
+        <div class="book-div">
+            
+            <form action="">
+
+            <div class="book-div1" style="background-color: red;">
+
+                  <h2 style="margin-left:0px; font-size:30px; color:blue;">UPDATE YOUR FORM</h2>
+
+                 <h4>UPDATE PICK-UP LOCATION</h4>
+                 <input type="text" id="update-pick-loc">
+
+                 
+                 <h4>UPDATE DROP-OFF LOCATION</h4>
+                 <input type="text" id="update-drop-loc">
+
+                 
+                 <h4>UPDATE PIC-UP DATE</h4>
+                 <input type="date" id="update-pick-date">
+
+                 
+                 <h4>UPDATE DROP-OFF DATE</h4>
+                 <input type="date" id="update-drop-date">
+
+                 
+                 <h4>UPDATE PIC-UP TIME</h4>
+                 <input type="time" id="update-pic-time"> <br>
+
+
+      <input type="submit" onclick="finalupdate('${data.id}')" style="width: 130px; height: auto; background-color: blue;margin-left: 90px; ">
+
+                </form>
+        </div>
+    </section>
+   
+   `
+
+   document.querySelector("#updateshow").innerHTML=formdata
+}
+
+  // ===================================Update fill form====================================
+
+
+let finalupdate=(id)=>{
+
+  let updatepickloc=document.querySelector("#update-pick-loc").value;
+  let updatedroploc=document.querySelector("#update-drop-loc").value;
+  let updatepickdate=document.querySelector("#update-pick-date").value;
+  let updatedropdate=document.querySelector("#update-drop-date").value;
+  let updatepicktime=document.querySelector("#update-pic-time").value;
+
+
+  
+try{
+  let url=`http://localhost:3000/carbooking/${id}`
+    fetch(url,
+      {method:"PUT",
+       
+      headers:{
+          "Content-Type":"application/json",
+      },
+
+      body:JSON.stringify(
+          {
+            "pickuplocation": updatepickloc,
+            "dropofflocation": updatedroploc,
+            "pickupdate": updatepickdate,
+            "dropoffdate": updatedropdate,
+            "pickuptime": updatepicktime
+
+          }
+      )
+      })
+      
+  }
+  catch(error){
+      console.log(error);
+      
+  }
+
+
+}
+
+
+*/

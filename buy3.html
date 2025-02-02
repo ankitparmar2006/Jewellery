@@ -28,7 +28,7 @@
 
 
 </head>
-<body>
+<body onload="fetchData()">
     
 <main>
 
@@ -494,6 +494,16 @@
 
 <section id="buy-3">
 
+<div id="display">
+
+<p id="na1"></p>
+<p id="na2"></p>
+<p id="na3"></p>
+<p id="na4"></p>
+<p id="na5"></p>
+
+</div>
+
     <h2>TANISHQ JEWELLERY STORE</h2>
     <h3 style="margin-left: 80%; color: #4CAF50;">BILL #0001</h3>
     <P> Address : XYZ Street ,City</P>
@@ -503,12 +513,14 @@
 
 
     <h2>CUSTOMER DETAILS</h2>
-    <P> Name : Ankit</P>
-    <P> Address : ABC Street ,Bhopal</P>
-    <P>Contact : 12345678123</P>
-    <p>Email : ankit@gmail.com</p>
+    <div style="display: grid; grid-template-columns: auto auto;">
+   <p>Name :</p> <P style="margin-left: -460px;" id="displayname">Ankit</P>
+   <p>Address :</p> <P style="margin-left: -460px;" id="displayaddress">Bhopal</P>
+   <p>Pin Code :</p> <P style="margin-left: -460px;" id="displaypincode">466111</P>
+   <p>Contact :</p> <P style="margin-left: -460px;" id="displaycontact">1234567890</P>
+   <p>Location:</p> <P style="margin-left: -460px;" id="displaylocation">sharma hotel</P>
 
-    
+</div>
 
 
     <h2>PRODUCT DETAILS</h2>
