@@ -2137,7 +2137,7 @@ height: 450px;
 /* ///<!--==================== profile  cording end from here   ===================== --> */
 
 #buy-3 {
-  height: 990px;
+  height: 960px;
   width: 80%;
   margin-left: 130px;
   background-color: rgba(218, 215, 29, 0.616);
@@ -2181,3 +2181,76 @@ border-radius: 10px;
   
 
  
+  #bar-ss {
+    display: none;
+  } 
+  .lab{
+    display: none;
+  }
+  
+  
+  
+  @media (max-width:450px) {
+  
+  /* navbar cording start from here   */
+  
+    #top-header nav ul {
+       display: none;
+  }
+  
+  
+  #top-header nav ul li {
+    padding: 20px;
+  }
+    .lab {
+      position: absolute;
+      z-index: 99999999;
+    color: white;
+      display: block;
+      left: 20px;
+      margin-top: 10px;
+      font-size: 30px;
+    }
+    #bar-ss:checked~#top-header nav ul {
+  display: block;
+  position: absolute;
+  left: 40px;
+  background-color: rgba(0, 0, 0, 0.692);
+  
+     } 
+     #bottom-header 
+     {
+      display: none;
+     }
+/* ---------------------------------------------- */
+#gold {
+margin-left: 0px;
+
+}
+
+#gold .gold-earrings-main .gold-earring-div1 {
+  display: grid;
+  grid-template-columns: auto ;
+justify-content: center; 
+ }
+
+ h2 {
+  display: none;
+ }
+
+  
+
+/* <!-- =========================    DIAMOND WORK START FROM HERE    ========================= --> */
+
+#diamond {
+  margin-left: 0px;
+  margin-top: 1400px;
+}
+
+#diamond .diamond-earrings-main .diamond-earring-div1 {
+display: grid;
+grid-template-columns: auto ;
+
+}
+
+    }
