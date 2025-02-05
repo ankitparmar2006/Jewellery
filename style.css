@@ -2253,4 +2253,58 @@ grid-template-columns: auto ;
 
 }
 
+#gem .gem-earrings-main .gem-earring-div1 {
+  display: grid;
+  grid-template-columns: auto ;
+  
+  }
+  #gem {
+    margin-left: 0px;
+    margin-top: 1550px;
+  }
+
+  #diamond-handring {
+    display: none;
+  }
+  #gold-handring {
+    display: none;
+  }
+
+  #gem-handring {
+    display: none;
+  }
+
+  #diamond-bangles {
+    margin-left: 0px;
+    margin-top: 600px;
+  }
+  #diamond-bangles .diamond-bangles-earrings-main .diamond-bangles-earring-div1 {
+    display: grid;
+    grid-template-columns: auto ;
+    
+    }
+
+    
+  #gold-bangles {
+    margin-left: 0px;
+    margin-top: 600px;
+    display: none;
+
+  }
+  #gold-bangles .gold-bangles-earrings-main .gold-bangles-earring-div1 {
+    display: grid;
+    grid-template-columns: auto ;
+    
+    }
+    #gold-nackless {
+      display: none;
+    }
+
+    #diamond-nackless {
+      display: none;
+    }
+    #footer {
+      margin-top: 700px;
+      font-size: 11px;
+    }
     }
