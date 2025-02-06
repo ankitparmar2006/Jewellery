@@ -280,6 +280,11 @@ let fetchData=  async ()=>{
   return false;
   
   }
+  let showitem=()=>
+  {
+    let item=document.querySelector("#uma")
+    item.style.display="block";
+  }
   
   /*
  // ===================================Update form====================================
