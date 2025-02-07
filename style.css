@@ -371,7 +371,7 @@ background-color: rgba(218, 215, 29, 0.788);
 
 #diamond {
   width: 100%;
-  height: 100vh;
+  height: auto;
   margin-top: 20px;
 }
 
@@ -522,7 +522,7 @@ background-size: contain;
 
 #gem {
   width: 100%;
-  height: 100vh;
+  height: auto;
   margin-top: 20px;
 }
 

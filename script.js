@@ -280,12 +280,26 @@ let fetchData=  async ()=>{
   return false;
   
   }
+//   --------------------------------------- similar show button------------------
+
+
   let showitem=()=>
   {
     let item=document.querySelector("#uma")
     item.style.display="block";
   }
   
+  let showitem2=()=>
+    {
+      let item=document.querySelector("#show2")
+      item.style.display="block";
+    }
+
+    let showitem3=()=>
+        {
+          let item=document.querySelector("#show3")
+          item.style.display="block";
+        }
   /*
  // ===================================Update form====================================
 
